@@ -13,7 +13,7 @@ class Bungkus {
 
     //membuat class inner
     inner class Inner {
-        //membuat function dan memnnggil variabel b
+        //membuat function dan memnnggil variabel asus
         fun MerkASUS() = asus
     }
 }
@@ -22,7 +22,7 @@ fun main() {
     println("~ Nested Class ~")
     //memanngil variabel di dalam class nested
     println(Bungkus.Laptop().n)
-    //memanngil function didalam class nested
+    //memanngil function didalam class nested menggunakan object
     val laptop = Bungkus.Laptop()
     println(laptop.Merk())
     println("~ Inner Class ~")
